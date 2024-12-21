@@ -1,15 +1,24 @@
 #include <iostream>
+#include <cstring>
 #include <tgbot/tgbot.h>
 
 #define BOOST_BIND_GLOBAL_PLACEHOLDERS
 
 int main() {
-    TgBot::Bot bot("7566901438:AAF5eBnmz-9WplAMxfli6DUTwKdUhquGqd8");
+    // получаем значение токена сохраненное в системной переменной
+    const char *TOKEN = getenv("GOSHA_BOT_TOKEN");
+    if (TOKEN == nullptr) {
+        std::cout << "Переменная не задана" << std::endl;
+    } 
+    // инициализация бота
+    TgBot::Bot bot(TOKEN);
 
+    // обработка команды /start
     bot.getEvents().onCommand("start", [&bot](TgBot::Message::Ptr message) {
         bot.getApi().sendMessage(message->chat->id, "Привет! Я ваш бот - Гоша.");
     });
 
+    // обработка любых сообщений
     bot.getEvents().onAnyMessage([&bot](TgBot::Message::Ptr message) {
         if (StringTools::startsWith(message->text, "/start")) {
             return;
@@ -19,7 +28,8 @@ int main() {
 
     try {
         std::cout << "Бот запущен. Нажмите Ctrl+C для остановки." << std::endl;
-        TgBot::TgLongPoll longPoll(bot);
+        // запуск бота
+        TgBot::TgLongPoll longPoll(bot); // отвечает за получение новых событий (например, сообщений)
         while (true) {
             longPoll.start();
         }
