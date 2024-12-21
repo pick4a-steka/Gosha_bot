@@ -1,0 +1,8 @@
+*.txt
+*.pdf
+temp*
+.test
+.npx/
+.idea/
+.env
+backup*
