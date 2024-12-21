@@ -142,7 +142,8 @@ CMakeFiles/bot.dir/main.cpp.o: /home/mihal/projects/gosha_bot/main.cpp \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc \
+ /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/cstring \
+ /usr/include/string.h /usr/include/strings.h \
  /home/mihal/tgbot/include/tgbot/tgbot.h \
  /home/mihal/tgbot/include/tgbot/Api.h \
  /home/mihal/tgbot/include/tgbot/TgException.h \
@@ -512,7 +513,6 @@ CMakeFiles/bot.dir/main.cpp.o: /home/mihal/projects/gosha_bot/main.cpp \
  /usr/include/boost/type_index/stl_type_index.hpp \
  /usr/include/boost/type_index/type_index_facade.hpp \
  /usr/include/boost/container_hash/hash_fwd.hpp \
- /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/boost/core/demangle.hpp /usr/include/c++/11/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/boost/type_traits/add_reference.hpp \
