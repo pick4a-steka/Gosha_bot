@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/usr/include",
-                "/home/mihal/tgbot/include"
+                "/home/mihal/tgbot/include",
+                "/home/mihal/json/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",

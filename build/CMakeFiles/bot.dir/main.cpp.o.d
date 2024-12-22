@@ -1931,4 +1931,70 @@ CMakeFiles/bot.dir/main.cpp.o: /home/mihal/projects/gosha_bot/main.cpp \
  /home/mihal/tgbot/include/tgbot/net/TgWebhookLocalServer.h \
  /home/mihal/tgbot/include/tgbot/net/TgWebhookServer.h \
  /home/mihal/tgbot/include/tgbot/net/TgWebhookTcpServer.h \
- /home/mihal/tgbot/include/tgbot/tools/FileTools.h
+ /home/mihal/tgbot/include/tgbot/tools/FileTools.h \
+ /usr/include/x86_64-linux-gnu/curl/curl.h \
+ /usr/include/x86_64-linux-gnu/curl/curlver.h \
+ /usr/include/x86_64-linux-gnu/curl/system.h \
+ /usr/include/x86_64-linux-gnu/curl/easy.h \
+ /usr/include/x86_64-linux-gnu/curl/multi.h \
+ /usr/include/x86_64-linux-gnu/curl/curl.h \
+ /usr/include/x86_64-linux-gnu/curl/urlapi.h \
+ /usr/include/x86_64-linux-gnu/curl/options.h \
+ /usr/local/include/nlohmann/json.hpp \
+ /usr/local/include/nlohmann/adl_serializer.hpp \
+ /usr/local/include/nlohmann/detail/abi_macros.hpp \
+ /usr/local/include/nlohmann/detail/conversions/from_json.hpp \
+ /usr/include/c++/11/forward_list /usr/include/c++/11/bits/forward_list.h \
+ /usr/include/c++/11/bits/forward_list.tcc /usr/include/c++/11/valarray \
+ /usr/include/c++/11/bits/valarray_array.h \
+ /usr/include/c++/11/bits/valarray_array.tcc \
+ /usr/include/c++/11/bits/valarray_before.h \
+ /usr/include/c++/11/bits/slice_array.h \
+ /usr/include/c++/11/bits/valarray_after.h \
+ /usr/include/c++/11/bits/gslice.h \
+ /usr/include/c++/11/bits/gslice_array.h \
+ /usr/include/c++/11/bits/mask_array.h \
+ /usr/include/c++/11/bits/indirect_array.h \
+ /usr/local/include/nlohmann/detail/exceptions.hpp \
+ /usr/local/include/nlohmann/detail/value_t.hpp \
+ /usr/local/include/nlohmann/detail/macro_scope.hpp \
+ /usr/local/include/nlohmann/detail/meta/detected.hpp \
+ /usr/local/include/nlohmann/detail/meta/void_t.hpp \
+ /usr/local/include/nlohmann/thirdparty/hedley/hedley.hpp \
+ /usr/local/include/nlohmann/detail/string_escape.hpp \
+ /usr/local/include/nlohmann/detail/input/position_t.hpp \
+ /usr/local/include/nlohmann/detail/meta/cpp_future.hpp \
+ /usr/local/include/nlohmann/detail/meta/type_traits.hpp \
+ /usr/local/include/nlohmann/detail/iterators/iterator_traits.hpp \
+ /usr/local/include/nlohmann/detail/meta/call_std/begin.hpp \
+ /usr/local/include/nlohmann/detail/meta/call_std/end.hpp \
+ /usr/local/include/nlohmann/json_fwd.hpp \
+ /usr/local/include/nlohmann/detail/string_concat.hpp \
+ /usr/local/include/nlohmann/detail/meta/identity_tag.hpp \
+ /usr/local/include/nlohmann/detail/meta/std_fs.hpp \
+ /usr/local/include/nlohmann/detail/conversions/to_json.hpp \
+ /usr/local/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+ /usr/local/include/nlohmann/detail/string_utils.hpp \
+ /usr/local/include/nlohmann/byte_container_with_subtype.hpp \
+ /usr/local/include/nlohmann/detail/hash.hpp \
+ /usr/local/include/nlohmann/detail/input/binary_reader.hpp \
+ /usr/local/include/nlohmann/detail/input/input_adapters.hpp \
+ /usr/include/c++/11/numeric /usr/include/c++/11/bits/stl_numeric.h \
+ /usr/local/include/nlohmann/detail/input/json_sax.hpp \
+ /usr/local/include/nlohmann/detail/input/lexer.hpp \
+ /usr/local/include/nlohmann/detail/meta/is_sax.hpp \
+ /usr/local/include/nlohmann/detail/input/parser.hpp \
+ /usr/local/include/nlohmann/detail/iterators/internal_iterator.hpp \
+ /usr/local/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+ /usr/local/include/nlohmann/detail/iterators/iter_impl.hpp \
+ /usr/local/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+ /usr/local/include/nlohmann/detail/json_custom_base_class.hpp \
+ /usr/local/include/nlohmann/detail/json_pointer.hpp \
+ /usr/local/include/nlohmann/detail/json_ref.hpp \
+ /usr/local/include/nlohmann/detail/output/binary_writer.hpp \
+ /usr/local/include/nlohmann/detail/output/output_adapters.hpp \
+ /usr/local/include/nlohmann/detail/output/serializer.hpp \
+ /usr/local/include/nlohmann/detail/conversions/to_chars.hpp \
+ /usr/local/include/nlohmann/ordered_map.hpp \
+ /usr/local/include/nlohmann/detail/macro_unscope.hpp \
+ /usr/local/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
